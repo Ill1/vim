@@ -8,6 +8,6 @@ let g:spelunker_disable_auto_group = 1
 
 augroup spelunker
     autocmd!
-    autocmd CursorHold *.tex,*.cs,*.cpp,*.c++,*.h,*.hpp,*.ps1,*.vim,*.js,*.jsx,*.json,*.md call spelunker#check_displayed_words()
+    autocmd CursorHold *.tex,*.cs,*.cpp,*.c++,*.h,*.hpp,*.ps1,*.vim,*.js,*.jsx,*.json,*.md,gitcommit call spelunker#check_displayed_words()
 augroup END
 
