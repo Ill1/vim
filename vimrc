@@ -74,8 +74,7 @@ set undofile
 
 " ========= Misc. Vim generated files and persistent folders
 " Create and allocate folder for Vim's optional & persistent state
-let s:varDir = has('win32') ? $USERPROFILE : $HOME
-let s:varDir = expand(s:varDir . '/var/vim')
+let s:varDir = expand(resolve(expand('<script>:h')) . '/var')
 
 " Move backup, swap, viminfo and undo files into s:varDir
 if !exists("*mkdir")

@@ -1,0 +1,68 @@
+[submodule "pack/default/start/vim-easymotion"]
+	path = pack/default/start/vim-easymotion
+	url = https://github.com/easymotion/vim-easymotion.git
+	branch = master
+[submodule "pack/default/start/vim-searchindex"]
+	path = pack/default/start/vim-searchindex
+	url = https://github.com/google/vim-searchindex.git
+	branch = master
+[submodule "pack/default/start/gruvbox"]
+	path = pack/default/start/gruvbox
+	url = https://github.com/morhetz/gruvbox.git
+	branch = master
+[submodule "pack/default/start/vim-fugitive"]
+	path = pack/default/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+	branch = master
+[submodule "pack/default/start/targets.vim"]
+	path = pack/default/start/targets.vim
+	url = https://github.com/wellle/targets.vim.git
+	branch = master
+[submodule "pack/default/start/ctrlp.vim"]
+	path = pack/default/start/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim.git
+	branch = master
+[submodule "pack/default/start/spelunker.vim"]
+	path = pack/default/start/spelunker.vim
+	url = https://github.com/kamykn/spelunker.vim.git
+	branch = master
+[submodule "pack/default/start/omnisharp-vim"]
+	path = pack/default/start/omnisharp-vim
+	url = https://github.com/omniSharp/omnisharp-vim.git
+	branch = master
+[submodule "pack/default/start/asyncomplete.vim"]
+	path = pack/default/start/asyncomplete.vim
+	url = https://github.com/prabirshrestha/asyncomplete.vim.git
+	branch = master
+[submodule "pack/default/start/ale"]
+	path = pack/default/start/ale
+	url = https://github.com/dense-analysis/ale.git
+	branch = master
+[submodule "pack/default/start/undotree"]
+	path = pack/default/start/undotree
+	url = https://github.com/mbbill/undotree.git
+	branch = master
+[submodule "pack/default/start/vim-surround"]
+	path = pack/default/start/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+	branch = master
+[submodule "pack/default/start/vim-ps1"]
+	path = pack/default/start/vim-ps1
+	url = https://github.com/PProvost/vim-ps1.git
+	branch = master
+[submodule "pack/lightline/start/lightline.vim"]
+	path = pack/lightline/start/lightline.vim
+	url = https://github.com/itchyny/lightline.vim.git
+	branch = master
+[submodule "pack/lightline/start/vim-gitbranch"]
+	path = pack/lightline/start/vim-gitbranch
+	url = https://github.com/itchyny/vim-gitbranch.git
+	branch = master
+[submodule "pack/lightline/start/lightline-ale"]
+	path = pack/lightline/start/lightline-ale
+	url = https://github.com/maximbaz/lightline-ale.git
+	branch = master
+[submodule "pack/optional/opt/tabular"]
+	path = pack/optional/opt/tabular
+	url = https://github.com/godlygeek/tabular.git
+	branch = master
