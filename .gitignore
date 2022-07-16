@@ -1,0 +1,9 @@
+*
+!*/
+!vimrc
+!.github/README.md
+!ftdetect/*
+!plugrc/*
+!.gitignore
+!.gitmodule
+!LICENSE.md
