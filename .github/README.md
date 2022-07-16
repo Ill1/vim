@@ -1,44 +1,41 @@
-# Dotfiles
-```
-git clone https://github.com/Ill1/dotfiles.git
-```
+# Vim Configuration
 
-## Vim
-### vimrc
-Vimrc will store vim-generated files for the backup, swap, .viminfo and undo files in
-`~/var/vim` and create `~/var/vim` if it doesn't exist.
-CtrlP is configured to use cmd.exe's dir command for getting filenames.
+## vimrc
+Stores .viminfo, backup, swap, undo files into `var/` folder.  
+`var/` will be created in same the location as `vimrc` if it doesn't exist.  
+CtrlP is configured to use `git` and cmd.exe's `dir` command as a fallback for
+getting filenames.  
+Uses Vim's pack feature to load plugins which are referenced as git submodules.
 
-To use, symlink the vim folder to the relevant $home folder:
+### Usage
+To use, symlink the vim folder to the relevant $home folder:  
 - bash
 ```
-ln -d -s dotfiles/vim ~/.vim
+ln -d -s vim ~/.vim
 ```
 - cmd.exe [elevated]
 ```
-mklink /D vimfiles .\repos\dotfiles\vim
+mklink /D %HOME%\vimfiles vim
 ```
 - pwsh.exe [elevated]
 ```
-New-Item -Path vimfiles -ItemType SymbolicLink -Value .\repos\dotfiles\vim
+New-Item -Path $HOME/vimfiles -ItemType SymbolicLink -Value vim
 ```
 
 ### Initializing plugin-submodules
 Initialize the plugin-submodules
 ```
-git submodule update --init dotfiles
+git submodule update --init
 ```
 
 ### Adding new Vim plugins
-To add, for example the easymotion plugin
+To add, for example, the easymotion plugin
 ```
-pushd ./vim/pack/default/start
+cd ./vim/pack/default/start
 git submodule add -b master https://github.com/easymotion/vim-easymotion.git
-popd
 ```
 
 ### Updating all Vim plugins
-For bash or powershell
 ```
 git submodule foreach 'git fetch && git pull'
 ```
